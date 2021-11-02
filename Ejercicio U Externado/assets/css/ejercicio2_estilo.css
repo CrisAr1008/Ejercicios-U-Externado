@@ -1,0 +1,81 @@
+    /*ESTILOS COMPARTIDOS*/
+
+    body {
+        font-family: 'sans-serif', sans-serif;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0px;
+    }
+
+    a {
+        font-size: 18px;
+        color: white;
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+        background-color: #E67E22;
+    }
+
+    h1 {
+        color: #000000;
+        border-bottom: 1px solid #FF5733;
+    }
+
+    img {
+        position: center; 
+        height: 100px;
+        width: 100px;
+    }
+
+    /* ESTILO MENÚ HORIZONTAL */
+
+    #horizontal {
+        max-width: 850px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #horizontal ul {
+        max-width: 828px; /* 9 elementos de 90 px de ancho con 2 pixeles de margen: 9*(90+2)=828 */
+        margin: 0 auto;
+    }
+
+    #horizontal li {
+        display: inline;
+    }
+
+    #horizontal a {
+        margin: 1px;
+        width: 70px;
+        height: 25px;
+        float: left;
+        border-bottom: 5px solid white;
+    }
+
+    #horizontal a:hover {
+        background-color: #27AE60;
+        border-bottom: 5px solid #DAF7A6;
+    }
+
+    /* ESTILO MENÚ VERTICAL */
+
+    #vertical {
+        width: 130px;
+    }
+
+    #vertical a {
+        font-size: 18px;
+        color: white;
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+        border-bottom: 1px solid white;
+        background-color: #DC7633;
+    }
+
+    #vertical a:hover {
+        background-color: #27AE60;
+        border-right: 5px solid #DAF7A6;
+    }

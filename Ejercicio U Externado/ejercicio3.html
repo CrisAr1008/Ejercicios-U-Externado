@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="assets/css/ejercicio3_estilo.css">
+	<title>Formulario</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="form__top">
+			<h2>Formulario Registro</h2>
+		</div>		
+		<form class="form__reg" action="">
+			<!--<input class="input" type="text" placeholder="Nombre" required>
+             <input class="input" type="email" placeholder="Email" required>
+            <input class="input" type="text" placeholder="Teléfono" required>
+            <input class="input" type="text" placeholder="Dirección" required> -->
+            <div class="btn__form">
+            	<input class="btn__submit" id="button" type="submit" value="Registrar">
+							<button class="btn__submit" type="button" id="show" >Mostrar </button>
+							<button class="btn__submit"  type="button" id="hide">Ocultar </button>
+            </div>
+		</form>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+  <script>
+		$(function(){
+			$('#show').click(function(){
+				$('#button').show();
+			});
+			$('#hide').click(function(){
+				$('#button').hide();
+			});
+		})
+	</script>
+</body>
+</html>

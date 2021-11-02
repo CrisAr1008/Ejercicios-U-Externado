@@ -1,0 +1,25 @@
+body{
+                font-family: 'sans-serif', sans-serif; /*Cambia la familia tipográfica.*/
+                background-color: purple; /*(Nombre color) Cambia color de fondo.*/
+                /*background-color: #E67E22; /*(Hexadecimal) Cambia color de fondo.*/
+                /*background-color: rgb(39,174,96); /*(RGB) Cambia color de fondo.*/
+
+            }
+            h1{
+                color: white; /*Cambia color de la fuente.*/
+                font-size: 50px; /*Cambia el tamaño de la fuente.*/
+
+                /*Cambios adicionales*/
+
+                font-weight: 300; /*Cambia el peso de la fuente.*/
+                text-align:center; /*Alinea el texto horizontalmente.*/
+
+                /*Todo lo siguiente alinea el texto verticalmente en la pantalla.
+                position: absolute;
+                width: 800px;
+                height: 200px;
+                top: 50%;
+                left: 50%;
+                margin-left: -400px;
+                margin-top: -100px;
+            }*/
